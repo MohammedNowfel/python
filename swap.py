@@ -8,5 +8,5 @@ a = b
 b = c
 print(a,b)
 '''
-a,b = b,a
+a,b = b,a # easy way to swap in python
 print(a,b)
