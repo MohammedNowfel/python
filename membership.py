@@ -1,3 +1,5 @@
+#Membership Operator
+
 lst = [1,2,3,4,5] #list
 name = "Mohammed Nowfel"
 age = 19
