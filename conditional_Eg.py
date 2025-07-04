@@ -10,3 +10,17 @@ elif(a<0):
 
 else:
     print("Zero");
+
+
+# Largest Number
+
+x = 10
+y = 20
+
+if(x>y):
+    largest = x
+
+else:
+    largest = y
+
+print("The Largest Number is:", largest);         
