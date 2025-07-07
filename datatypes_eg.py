@@ -14,4 +14,4 @@ print(type(name))
 
 name = 2005
 print(name)
-print(type(name))  #In python has change the data type inbetween  So, it is called dynamic typingc
+print(type(name))  #In python has change the data type inbetween  So, it is called dynamic typing

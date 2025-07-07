@@ -1,6 +1,6 @@
 # Nested If
 
-age = 18
+age = 15
 eat_pizza = False
 exercise = False
 
@@ -24,4 +24,5 @@ print('child' if (age<18) else 'Adult')
 
 # Ternary Operator with multiple conditions
 
-print("unfit" if (eat_pizza) else "fit" if (age<30) else "fit" if (exercise) else "unfit")
+print(("unfit" if (eat_pizza) else "fit") if (age<30) else ("fit" if (exercise) else "unfit"))
+
