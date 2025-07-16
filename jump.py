@@ -16,3 +16,14 @@ while(True):  # it is infinite loop and   cntl + c is used to stop the infinite 
 
 
 print("outside loop")
+
+
+# Else clause in loops
+
+for i in range(1,10):
+    if i == 5:
+        continue # we use break. the else part was skip
+    print(i)
+    
+else:
+    print('successfully completed!')
