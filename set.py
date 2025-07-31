@@ -15,6 +15,7 @@ print(set1)
 set1.clear()
 print(set1)
 
+# List to Set conversion
 lst= [1,2,3,4]
 set2 = set(lst) #same as tuple
 print(set2)
