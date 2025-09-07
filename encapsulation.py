@@ -3,7 +3,7 @@
 class car:
 
     def __init__(self, no_of_wheels, no_of_airbags, mileage):
-        self.__no_of_wheels = no_of_wheels
+        self.__no_of_wheels = no_of_wheels   # private variable
         self.no_of_airbags = no_of_airbags
         self.mileage = mileage
 
